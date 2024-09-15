@@ -1,7 +1,8 @@
-/* Define a cor de fundo da página */
+/* Define a cor de fundo da página em tom de rosa claro */
 body {
-    background-color: #f0f0f0;
+    background-color: #ffe6f0;
     font-family: Arial, sans-serif;
+    color: #333;
 }
 
 /* Centraliza o conteúdo da página */
@@ -13,20 +14,21 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estiliza o cabeçalho */
+/* Estiliza o cabeçalho com rosa escuro */
 header {
-    background-color: #4CAF50;
+    background-color: #ff66b2;
     color: white;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 /* Define o estilo para a foto de perfil */
 .profile-photo {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 50%;
-    margin-bottom: 20px;
+    border: 3px solid #ff66b2; /* Borda rosa em torno da foto */
 }
 
 /* Estiliza a seção "Sobre mim" */
@@ -48,6 +50,7 @@ header {
     display: inline-block;
     margin: 0 15px;
     font-size: 16px;
+    color: #ff66b2; /* Cor rosa para os itens de hobby */
 }
 
 /* Estiliza os links de redes sociais */
@@ -64,9 +67,20 @@ header {
 
 .social-links a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #ff66b2; /* Cor rosa para os links */
+    font-weight: bold;
 }
 
 .social-links a:hover {
     text-decoration: underline;
+}
+
+/* Adiciona padding e margens */
+h2, h3 {
+    margin-bottom: 10px;
+    color: #ff66b2;
+}
+
+hobbies, footer {
+    margin-top: 20px;
 }
