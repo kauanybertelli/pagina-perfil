@@ -1,0 +1,72 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo da página */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Define o estilo para a foto de perfil */
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estiliza a seção "Sobre mim" */
+.about-me {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estiliza a lista de hobbies */
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.hobbies ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Estiliza os links de redes sociais */
+.social-links {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
